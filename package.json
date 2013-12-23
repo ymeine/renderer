@@ -1,0 +1,59 @@
+{
+	"name": "renderer",
+	"version": "0.0.0",
+	"description": "A collection of renderers. A renderer outputs text from objects containing its structural representation.",
+	"keywords": [
+		"renderer",
+		"render",
+		"text",
+		"io",
+
+		"mediawiki",
+		"mw",
+		"markdown"
+		"md"
+	],
+
+	"homepage": "http://ymeine.github.io/renderer",
+	"bugs": "https://github.com/ymeine/renderer/issues",
+
+	"license": "MIT",
+
+	"author": {
+		"name": "Yannick Meine",
+		"email": "yannick.meine@gmail.com",
+		"url": "http://ymeine.github.io"
+	},
+
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ymeine/renderer"
+	},
+
+
+
+	"main": "src/index",
+
+	"directories": {
+		"lib": "./src"
+	},
+
+
+
+	"preferGlobal": false,
+	"private": true,
+
+	"engineStrict": false,
+	"engines": {
+		"node": "*",
+		"npm": "*"
+	},
+	"devDependencies": {
+		"tester": "git+https://github.com/ymeine/tester#version/latest"
+	},
+	"dependencies": {
+		"LiveScript": "1.2.x",
+
+		"std": "git+https://github.com/ymeine/std#version/cutting-edge"
+	}
+}
