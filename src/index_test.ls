@@ -59,6 +59,10 @@ $logger.log markdown.emphase 'text' {+i}
 $logger.log markdown.emphase 'text' {+b}
 $logger.log markdown.emphase 'text' {+b, +i}
 
+$logger.delimiter!
+$logger.logStr markdown.list ['1' ['2.1' '2.2'] '3'] yes
+$logger.delimiter!
+
 # MediaWiki --------------------------------------------------------------------
 
 $logger.separator 'MediaWiki'
@@ -79,3 +83,7 @@ $logger.log mediawiki.emphase 'text'
 $logger.log mediawiki.emphase 'text' {+i}
 $logger.log mediawiki.emphase 'text' {+b}
 $logger.log mediawiki.emphase 'text' {+b, +i}
+
+$logger.delimiter!
+$logger.logStr mediawiki.list ['1' ['2.1' '2.2'] '3'] yes
+$logger.delimiter!
