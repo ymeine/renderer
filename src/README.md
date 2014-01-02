@@ -32,7 +32,6 @@ In practice all modules contained in [`node_modules`](./node_modules) are export
 
 Rendering features to implement:
 
-* ordered lists
 * tables
 	* cells
 	* rows
