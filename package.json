@@ -10,7 +10,7 @@
 
 		"mediawiki",
 		"mw",
-		"markdown"
+		"markdown",
 		"md"
 	],
 
@@ -54,6 +54,7 @@
 	"dependencies": {
 		"LiveScript": "1.2.x",
 
-		"std": "git+https://github.com/ymeine/std#version/cutting-edge"
+		"std": "git+https://github.com/ymeine/std#version/cutting-edge",
+		"oop": "git+https://github.com/ymeine/oop#version/latest"
 	}
 }
