@@ -33,7 +33,7 @@ See [issues](https://github.com/ymeine/renderer/issues).
 
 This library was born to serve simple purposes, and is intended to be simple to implement, and simple to use. And also to make things simple.
 
-But why is that (currently) a bad approach? It currently use a structural - understand graph - abstract representation of a text, and directly outputs it to some text format. This generated text is intended to be later on parsed, which means will generate a graph, same kind of things we had at the beginning. Then it will again be converted to text to reiterate other transformations, or used directly.
+But why is that (currently) a bad approach? It currently uses a structural - understand graph - abstract representation of a text, and directly outputs it to some text format. This generated text is intended to be later on parsed, which means will generate a graph, same kind of things we had at the beginning. Then it will again be converted to text to reiterate other transformations, or used directly.
 
 It is in general more clever to have a specific structural (graph) representation for each format of output, and then use them for actual output generation.
 
